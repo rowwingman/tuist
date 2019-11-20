@@ -46,7 +46,7 @@ public extension BuildAction {
     }
 }
 
-extension ArchiveAction {
+public extension ArchiveAction {
     static func test(configurationName: String = "Beta Release",
                      revealArchiveInOrganizer: Bool = true,
                      customArchiveName: String? = nil,
@@ -60,7 +60,7 @@ extension ArchiveAction {
     }
 }
 
-extension Scheme {
+public extension Scheme {
     static func test(name: String = "Test",
                      shared: Bool = false,
                      buildAction: BuildAction? = BuildAction.test(),
