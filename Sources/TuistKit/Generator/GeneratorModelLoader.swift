@@ -590,7 +590,8 @@ extension TuistCore.Scheme {
                       shared: shared,
                       buildAction: buildAction,
                       testAction: testAction,
-                      runAction: runAction)
+                      runAction: runAction,
+                      archiveAction: archiveAction)
     }
 }
 
